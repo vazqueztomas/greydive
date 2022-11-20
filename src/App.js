@@ -1,23 +1,17 @@
-import logo from './logo.svg';
+import { useState } from 'react';
 import './App.css';
+import Header from './components/Header';
+import data from'./data/db.json'
+import Video from './Video';
 
 function App() {
+ const [checked, setChecked] = useState(false);
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header/>
+      <button onClick = {(e) =>setChecked(0)}>Cliente 1</button>
+      <button onClick = {(e) =>setChecked(1)}>Cliente 2</button>
+      {checked === 0 ? <Video video = {data[0]}/> : <Video video = {data[1]}/>}
     </div>
   );
 }
