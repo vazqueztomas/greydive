@@ -9,9 +9,9 @@ function App() {
     <div className="App">
       <Header/>
       <div className='botonera'>
-
+      <p>Clientes: </p>
       {data.map((el, id) => 
-        <button onClick = {() => {
+        <button className = 'boton' onClick = {() => {
           navigate(`/client/${el.cliente}/${id}`)
         }}>{el.cliente}</button>
         )}

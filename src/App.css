@@ -6,15 +6,31 @@
   flex-direction: column;
 }
 
+p {
+  color: coral;
+}
+
 .App .botonera {
   display: flex;
   justify-content: center;
   padding-top: 16px;
   gap: 8px;
+  align-items: center;
 }
 
 .titulo {
   margin-top: 16px;
   margin-bottom: 16px;
   color: #41416d;
+}
+
+.boton {
+  display: flex;
+  justify-content: center;
+  padding: 8px 24px;
+  border: none;
+  background-color: coral;
+  text-transform: capitalize;
+  border-radius: 6px;
+  cursor: pointer;
 }

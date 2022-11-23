@@ -20,7 +20,7 @@ const Video = () => {
           <pre>
             <div className='video-responsive'>
               <h4 className='titulo'>Video del testeador: </h4>
-              <iframe src = {data[id].linkVideo} title={data[id].cliente} frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+              <iframe src = {data[id].linkVideo} title={data[id].cliente} frameBorder="0" allowFullScreen="allowfullscreen"></iframe>
             </div>
           </pre>
           <Transcripcion transcripcion={data[id].transcripcion}/>

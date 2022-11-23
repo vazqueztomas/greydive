@@ -5,7 +5,7 @@ import '../styles/Header.css'
 const Header = () => {
   const navigate = useNavigate()
   return (
-    <div className='header' onClick={() => {navigate('/')}}>Greydive</div>
+    <div className='header' onClick={() => {navigate('/')}}><h4 style = {{cursor: 'pointer'}}>Greydive</h4></div>
   )
 }
 

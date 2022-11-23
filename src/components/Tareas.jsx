@@ -1,7 +1,7 @@
 import React from 'react'
 import '../styles/Video.css'
+
 const Tareas = ({tareas, escenario}) => {
-    
   return (
     <>
         <div>
@@ -12,7 +12,7 @@ const Tareas = ({tareas, escenario}) => {
         </div>
 
         <div className='tareasContainer'>
-            {tareas.preguntas.map((el, id) => 
+            {tareas.map((el, id) => 
                 <div key = {id} className = 'tareas'>
                     <h4>Tarea {id + 1}:</h4>
                     <h5 >{el.texto.split('\n')}</h5>
