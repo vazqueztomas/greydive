@@ -1,6 +1,10 @@
-# Getting Started with Create React App
+# Greydive
 
+Greydive es un challenge realizado con Create-React-App para la empresa Greydive.
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+# Challenge
+Para visualizar las consignas del challenge visitar <a href = 'https://docs.google.com/document/d/1wUHej8LwBKHKav5PNnPZ2guZ4TbXYWqpaezvf_7BT4o/edit'> acá </a>
 
 ## Available Scripts
 
