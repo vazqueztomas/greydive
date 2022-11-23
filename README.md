@@ -25,6 +25,7 @@ Estos datos son:
 <br>
 
 Dentro de esta vista, los datos estan trabajados para que se muestren en pantalla de la mejor manera posible.
+Se agrego <b>Firebase</b> para el deploy del proyecto. <br><a href = 'https://greydive-challenge.web.app'>VISITA LA APLICACION</a>
 
 ## Inicialización del proyecto
 
@@ -38,6 +39,5 @@ Abrí [http://localhost:3000](http://localhost:3000) para verla en tu navegador.
 
 ### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
+La aplicación utiliza Firebase para realizar el deploy. Para ver el deploy de la página <a href = 'https://greydive-challenge.web.app>hace click acá</a>
 
