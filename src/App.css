@@ -1,14 +1,20 @@
 .App {
   color: #222;
   background-image: linear-gradient(180deg, #292643, #41416d);
-  color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
-.header {
-  color: white;
-  background-color: #41416d;
-  text-align: center;
-  padding: .5em 0;
-  font-weight: bold;
-  border-bottom: 1px solid black;
+.App .botonera {
+  display: flex;
+  justify-content: center;
+  padding-top: 16px;
+  gap: 8px;
+}
+
+.titulo {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  color: #41416d;
 }

@@ -1,0 +1,98 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 1.5em 0;
+    text-align: left;
+    justify-content: start;
+    width: 100%;
+}
+
+.duration {
+    color: orange;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 0 10%;
+}
+
+.video-responsive {
+    position: relative;
+    padding-bottom: 56.25%;
+    /* 16/9 ratio */
+    padding-top: 30px;
+    /* IE6 workaround*/
+    height: 0;
+    overflow: hidden;
+}
+
+.video-responsive iframe,
+.video-responsive object,
+.video-responsive embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.cliente,
+.test {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    color: #41416d;
+}
+
+.transcripcion {
+    overflow: scroll;
+    max-height: 300px;
+    max-width: 600px;
+    margin-bottom: 40px;
+    padding-right: 50px;
+    padding-bottom: 60px;
+    padding-left: 50px;
+    font-family: GothamBook, Arial, sans-serif;
+    color: #222;
+    font-size: 1rem;
+    line-height: 1.4rem;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: none;
+    white-space: pre-wrap;
+}
+
+.tareas {
+    display: block;
+    overflow: visible;
+    max-height: 200px;
+    max-width: 400px;
+    margin-top: 20px;
+    margin-bottom: 0;
+    padding: 20px 20px 0;
+    border-style: solid none none;
+    border-width: 1px 1px 1px 0;
+    border-color: #222 #000 #000 #2e2e2e;
+    border-radius: 0;
+    font-family: GothamMedium, Arial, sans-serif;
+    color: #222;
+    font-size: 1rem;
+    line-height: 1.4rem;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: none;
+}
+
+.escenario {
+    text-align: left;
+}

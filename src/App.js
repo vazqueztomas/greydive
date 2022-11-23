@@ -1,17 +1,21 @@
-import { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import './App.css';
 import Header from './components/Header';
 import data from'./data/db.json'
-import Video from './Video';
 
 function App() {
- const [checked, setChecked] = useState(false);
+ const navigate = useNavigate()
   return (
     <div className="App">
       <Header/>
-      <button onClick = {(e) =>setChecked(0)}>Cliente 1</button>
-      <button onClick = {(e) =>setChecked(1)}>Cliente 2</button>
-      {checked === 0 ? <Video video = {data[0]}/> : <Video video = {data[1]}/>}
+      <div className='botonera'>
+
+      {data.map((el, id) => 
+        <button onClick = {() => {
+          navigate(`/client/${el.cliente}/${id}`)
+        }}>{el.cliente}</button>
+        )}
+        </div>
     </div>
   );
 }

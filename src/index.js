@@ -3,11 +3,18 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { BrowserRouter as Browser, Routes, Route } from 'react-router-dom';
+import Video from './Video';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Browser>
+      <Routes>
+        <Route path = '/' element={<App/>}/>
+        <Route path = '/client/:client/:id' element = {<Video/>}/>
+      </Routes>
+    </Browser>
   </React.StrictMode>
 );
 
