@@ -39,5 +39,5 @@ Abrí [http://localhost:3000](http://localhost:3000) para verla en tu navegador.
 
 ### Deployment
 
-La aplicación utiliza Firebase para realizar el deploy. Para ver el deploy de la página <a href = 'https://greydive-challenge.web.app>hace click acá</a>
+La aplicación utiliza Firebase para realizar el deploy. Para ver el deploy de la página <a href = 'https://greydive-challenge.web.app'>hace click acá</a>
 
