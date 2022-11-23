@@ -1,6 +1,6 @@
 # Documentación
 
-<h3>Greydive<h3>
+<h3>Greydive</h3>
 
 Greydive es un challenge realizado en React para la empresa Greydive.<br>
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
